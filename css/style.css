@@ -1,0 +1,46 @@
+body {
+    background-color: #dedede;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+
+  p {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .box {
+    display: inline-block;
+    width: 24%;
+    margin: 5px;
+    padding: 2px;
+  }
+
+  .box img {
+    width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+  }
+
+  @media (min-width: 772px) {
+    .box {
+      width: 45vw;
+    }
+  }
+
+  @media (min-width: 998px) {
+    .box {
+      width: 30vw;
+    }
+  }
